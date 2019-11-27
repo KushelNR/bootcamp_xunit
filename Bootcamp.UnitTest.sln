@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo01", "demo01", "{4AD39B19-8401-4778-A343-2F8C10E6560C}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebService.BusinessLayer", "SimpleWebService.BusinessLayer\SimpleWebService.BusinessLayer.csproj", "{C3DD587D-9E18-4510-BF2E-3F95DE569842}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebService.DataAccessLayer", "SimpleWebService.DataAccessLayer\SimpleWebService.DataAccessLayer.csproj", "{C3A3AC6E-2737-43FC-9883-2A14938F34EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{F70CDD34-3674-4E0D-BBD0-8D04793A2772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.Tests", "SimpleCalculator.Tests\SimpleCalculator.Tests.csproj", "{E56EE10B-EED3-4E4C-BAEF-352691BBE449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService.Tests", "WebService.Tests\WebService.Tests.csproj", "{F94ED712-0EFE-43E9-9762-FB6B5B9F32CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,18 @@ Global
 		{C3A3AC6E-2737-43FC-9883-2A14938F34EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3A3AC6E-2737-43FC-9883-2A14938F34EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3A3AC6E-2737-43FC-9883-2A14938F34EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70CDD34-3674-4E0D-BBD0-8D04793A2772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70CDD34-3674-4E0D-BBD0-8D04793A2772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70CDD34-3674-4E0D-BBD0-8D04793A2772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70CDD34-3674-4E0D-BBD0-8D04793A2772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56EE10B-EED3-4E4C-BAEF-352691BBE449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56EE10B-EED3-4E4C-BAEF-352691BBE449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56EE10B-EED3-4E4C-BAEF-352691BBE449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56EE10B-EED3-4E4C-BAEF-352691BBE449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94ED712-0EFE-43E9-9762-FB6B5B9F32CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94ED712-0EFE-43E9-9762-FB6B5B9F32CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94ED712-0EFE-43E9-9762-FB6B5B9F32CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94ED712-0EFE-43E9-9762-FB6B5B9F32CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +57,9 @@ Global
 		{8CAB788E-C909-4167-942A-B9303644D67B} = {B2850EB9-3B90-4323-A6D8-AC963D10F3F3}
 		{C3DD587D-9E18-4510-BF2E-3F95DE569842} = {B2850EB9-3B90-4323-A6D8-AC963D10F3F3}
 		{C3A3AC6E-2737-43FC-9883-2A14938F34EE} = {B2850EB9-3B90-4323-A6D8-AC963D10F3F3}
+		{F70CDD34-3674-4E0D-BBD0-8D04793A2772} = {4AD39B19-8401-4778-A343-2F8C10E6560C}
+		{E56EE10B-EED3-4E4C-BAEF-352691BBE449} = {4AD39B19-8401-4778-A343-2F8C10E6560C}
+		{F94ED712-0EFE-43E9-9762-FB6B5B9F32CD} = {B2850EB9-3B90-4323-A6D8-AC963D10F3F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {241CA254-FB84-405B-9DBC-364F63EDFAFC}

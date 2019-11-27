@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WebService.Tests/obj
+/WebService.Tests/bin/Debug/netcoreapp3.0
+/UnitTest1/obj
+/SimpleWebService.DataAccessLayer/obj
+/SimpleWebService.BusinessLayer/obj
+/SimpleWebService/obj
+/SimpleWebService/bin/Debug/netcoreapp2.2
+/SimpleCalculator.Tests/obj
+/SimpleCalculator.Tests/bin/Debug/netcoreapp3.0
+/SimpleCalculator/obj
+/SimpleCalculator/bin/Debug/netcoreapp3.0
+/BusinessLayer/obj/Release/netcoreapp2.2
+/.vs
